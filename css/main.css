@@ -1,0 +1,147 @@
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th.header {
+    background-color: #CAE0BE;
+}
+
+tbody {
+	background-color: #F2F4F6;
+}
+
+.tabPanelContainer{
+	background-color: #EBEFF1;
+	padding: 14px; 
+}
+
+.tabPane {
+    padding: 9px 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tabPane.activeTab{
+	border-bottom: 5px solid #6DB33F;
+}
+
+a:hover {
+    border-bottom: 5px solid #6DB33F;
+}
+
+.columnFilterPanel{
+	padding : 10px 5px 10px 68px;
+}
+
+.columnButton {
+	cursor: pointer;
+}
+
+.downdownMenu {
+	z-index: 1000;
+	overflow: hidden;
+	border: 1px solid gray;
+	position: absolute;
+	background: #ffffff;
+	border-radius: 6px;
+	padding: 5px;
+	display: none;
+	margin: 0 0 0 125px;
+}
+
+.downdownMenu.active {
+	display: inline;
+}
+
+.checkbox-inline {
+    padding: 2px;
+}
+
+.expandButton {
+	background-image: url(../images/tabledrop-iconPlus.png);
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border: none;
+	background-repeat: no-repeat;
+	background-size: 13px;
+}
+
+.collaseButton {
+	background-image: url(../images/tabledrop-icon.png);
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border: none;
+	background-repeat: no-repeat;
+	background-size: 13px;
+}
+
+.configButton {
+	background-image: url(../images/config-icon.png);
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border: none;
+	background-repeat: no-repeat;
+	background-size: 13px;
+}
+
+.lockButton {
+	background-image: url(../images/lock_icon.png);
+	height: 12px;
+	width: 12px;
+	background-color: white;
+	border: none;
+	background-repeat: no-repeat;
+	background-size: 13px;
+	display: inline-block;
+	margin-left: 9px;
+}
+
+.wrap-dd-menu .dropdown {
+	width: 100px;
+	margin: 0;
+}
+
+.wrap-dd-menu .dropdown:after {
+	display: none;
+}
+
+.wrap-dd-menu .dropdown li a {
+	color: black;
+}
+
+.ng-table-pager{
+	display: none;
+}
+
+.nameCol{
+	width: 12%;
+}
+
+.idCol{
+	width: 21%;
+}
+
+.address1Col {
+	width: 18%;
+}
+
+.address2Col {
+	width: 18%;
+}
+
+.cityCol {
+	width: 13%;
+}
+
+.pinCol {
+	width: 8%;
+}
+
+.commentsCol {
+	width: 3%;
+}
+

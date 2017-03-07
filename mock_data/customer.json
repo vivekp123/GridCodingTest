@@ -1,0 +1,150 @@
+var customers = [{
+	"name" : "John",
+	"id" : "asdf-akkd-123s-asdf-afsd",
+	"special_category" : false,
+	"bank" : {
+	   "name" : "Citi",
+	   "branch" : "PA",
+	   "city" : "PA",
+	   "IFSC" : "NA",	   
+	   "comments" : "Good"
+	},
+	"address" : {
+	    "addressFirst" : "101,Red street",
+		"addressSecond" : "Mountain View",
+		"city" : "Mountain View",
+		"pin" : "NA",	   
+	   "comments" : "Good"
+	}
+},
+{
+	"name" : "Elton",
+	"id" : "a1df-akkd-123s-asdf-a123",
+	"special_category" : true,
+	"bank" : {
+	   "name" : "Citi",
+	   "branch" : "PA",
+	   "city" : "PA",
+	   "IFSC" : "NA",	   
+	   "comments" : "Better"	   
+	
+	},
+	"address" : {
+	    "addressFirst" : "101,Red street",
+		"addressSecond" : "Mountain View",
+		"city" : "Mountain View",
+		"pin" : "NA",	   
+	   "comments" : "Better"
+	}
+},{
+	"name" : "Smith",
+	"id" : "c3df-akkd-123s-asdf-a123",
+	"special_category" : false,
+	"bank" : {
+	   "name" : "Citi",
+	   "branch" : "PA",
+	   "city" : "PA",
+	   "IFSC" : "NA",	   
+	   "comments" : "Best"	   
+	
+	},
+	"address" : {
+	    "addressFirst" : "101,Red street",
+		"addressSecond" : "Mountain View",
+		"city" : "Mountain View",
+		"pin" : "NA",	   
+	   "comments" : "Best"
+	}
+},
+{
+	"name" : "Ronald",
+	"id" : "43df-akkd-123s-asdf-a123",
+	"special_category" : true,
+	"bank" : {
+	   "name" : "Citi",
+	   "branch" : "PA",
+	   "city" : "PA",
+	   "IFSC" : "NA",	   
+	   "comments" : "Perfect"	   
+	
+	},
+	"address" : {
+	    "addressFirst" : "101,Red street",
+		"addressSecond" : "Mountain View",
+		"city" : "Mountain View",
+		"pin" : "NA",
+		"comments" : "Perfect"
+	}
+},
+{
+	"name" : "Clinton",
+	"id" : "33df-akkd-123s-asdf-a123",
+	"special_category" : false,
+	"bank" : {
+	   "name" : "Citi",
+	   "branch" : "PA",
+	   "city" : "PA",
+	   "IFSC" : "NA",	   
+	   "comments" : "Awesome"	   
+	
+	},
+	"address" : {
+	    "addressFirst" : "101,Red street",
+		"addressSecond" : "Mountain View",
+		"city" : "Mountain View",
+		"pin" : "NA",
+		"comments" : "Awesome"
+	}
+}
+];
+
+var bankDetails = [
+  {
+    "name": "Primary",
+    "id": "1028",
+    "bank" : {
+	    "name" : "city",
+	    "branch": "PA",
+	    "city": "PA",
+	    "IFSC": "NA",
+	    "comments": "Good"
+    }
+  },
+  {
+    "name": "Secondary",
+    "id": "1025",
+    "bank" : {
+	    "name" : "City",
+	    "branch": "PA",
+	    "city": "PA",
+	    "IFSC": "NA",
+	    "comments": "Better"
+    }
+  }
+];
+
+
+var addressDetails = [
+  {
+    "name": "Address1",
+    "id": "1001",
+    "address" : {
+	    "addressFirst" : "city",
+	    "addressSecond": "PA",
+	    "city": "PA",
+	    "pin": "NA",
+	    "comments": "Good"
+    }
+  },
+  {
+    "name": "Address2",
+    "id": "1002",
+    "address" : {
+	    "addressFirst" : "City",
+	    "addressSecond": "PA",
+	    "city": "PA",
+	    "pin": "NA",
+	    "comments": "Better"
+    }
+  }
+]
